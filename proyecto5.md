@@ -21,7 +21,7 @@
   ```
 4. **Outliers**: identifique si existen outliers univariados o multivariados. Proponga una solución y ejecútela.
   ```python
-  from scipy.spacial.distance import mahalanobis
+  from scipy.spatial.distance import mahalanobis
   from scipy.stats import chi2
   
   mahal_distances = []
